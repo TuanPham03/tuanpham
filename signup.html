@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="Styles/signup.css" />
+    <title>PMT smart phone</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper_header">
+        <div class="container_header">
+        <div class="logo_main">
+          <a href="index.html" class="logo_main-header">
+            <img src="Images/logo1.png" alt="" />
+          </a>
+        </div>
+        <div class="search">
+          <form action="" class="form_search">
+            <input type="text" name="search" placeholder="Search..." />
+            <i class="bx bx-search-alt-2 iconSearch"></i>
+          </form>
+        </div>
+        <div>
+          <div class="form_user" id="form_user" onclick="ToggleMenu()">
+            <img class="img_login" src="Images/user.png" alt="" />
+            <i class='bx bx-menu img_login1'></i>
+          </div>
+          <div class="supmenu_user" id="supmenu-user">
+            <div class="arrow_user_top" id="supmenu-user1">
+              <i class="bx bxs-up-arrow"></i>
+            </div>
+
+            <div class="sup_user">
+              <div class="user_info">
+                <h1>Thông tin người dùng</h1>
+              </div>
+              <hr />
+              <a href="" class="link-sup-menu-user">
+                <p>Giỏ hàng</p>
+                <span>0</span>
+              </a>
+              <a href="" class="link-sup-menu-user">
+                <p>Trợ giúp</p>
+              </a>
+              <a href="login.html" class="link-sup-menu-user">
+                <p>Đăng nhập</p>
+              </a>
+              <a href="signup.html" class="link-sup-menu-user">
+                <p>Đăng ký</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="menu_phone" id="menu_phone">
+          <ul class="menu_phone_list">
+            <li class="menu_items">
+              <a href=""
+                ><div><i class="bx bx-home"></i><span>Trang chủ</span></div></a
+              >
+            </li>
+            <li class="menu_items" id="menuitems"  >
+              <a href="#"
+                ><div><i class="bx bx-mobile-alt"></i><span>Điện thoại</span><i class="bx bxs-down-arrow icarrow ic"></i></div>
+                </a>
+              <ul class="sub-menu-phone" id="sub-menu-phone">
+                <li>
+                  <a href=""><div>Iphone</div></a>
+                </li>
+                <li>
+                  <a href=""><div>SamSung</div></a>
+                </li>
+                <li>
+                  <a href=""><div>Oppo</div></a>
+                </li>
+                <li>
+                  <a href=""><div>ViVo</div></a>
+                </li>
+                <li>
+                  <a href=""><div>Xiaomi</div></a>
+                </li>
+                <li>
+                  <a href=""><div>Nokia</div></a>
+                </li>
+                <li>
+                  <a href=""><div>Asus</div></a>
+                </li>
+                <li>
+                  <a href=""><div>Realme</div></a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu_items">
+              <a href=""
+                ><div><i class="bx bx-usb"></i><span>Phụ kiện</span></div></a
+              >
+            </li>
+            <li class="menu_items" id="menuitems1" >
+              <a href="#"
+                ><div><i class="bx bx-mobile-vibration"></i><span>Hàng cũ</span><i class="bx bxs-down-arrow icarrow1"></i></div>
+                </a>
+              <ul class="sub-menu-phone" id="sub-menu-phone">
+                <li>
+                  <a href=""><div>Iphone cũ</div></a>
+                </li>
+                <li>
+                  <a href=""><div>SamSung cũ</div></a>
+                </li>
+                <li>
+                  <a href=""><div>Oppo cũ</div></a>
+                </li>
+                <li>
+                  <a href=""><div>ViVo cũ</div></a>
+                </li>
+                <li>
+                  <a href=""><div>Xiaomi cũ</div></a>
+                </li>
+                <li>
+                  <a href=""><div>Nokia cũ</div></a>
+                </li>
+                <li>
+                  <a href=""><div>Asus cũ</div></a>
+                </li>
+                <li>
+                  <a href=""><div>Realme cũ</div></a>
+                </li>
+              </ul>
+            </li>
+            <li class="menu_items">
+              <a href=""
+                ><div><i class="bx bx-headphone"></i><span>Âm thanh</span></div></a
+              >
+            </li>
+            <li class="menu_items">
+              <a href="contact.html"
+                ><div><i class="bx bxs-contact"></i><span>Liên hệ</span></div></a>
+            </li>
+
+            <li class="menu_items">
+              <a href=""
+                ><div><i class="bx bx-volume-full"></i><span>Khuyến mãi</span></div></a
+              >
+            </li>
+            <li class="menu_items">
+              <a href=""
+                ><div><i class="bx bx-news"></i><span>Tin tức</span></div></a
+              >
+            </li>
+            <li class="menu_items">
+              <a href="login.html"
+                ><div><i class="bx bx-user"></i><span>Tài khoản</span></div></a
+              >
+            </li>
+          </ul>
+        </div>
+        </div>
+      </div>
+      <div class="wrapper_body">
+        <div class="wrapper_container">
+            <div class="content_create">
+              
+                <div class="create_top"></div>
+                <div class="create_text">
+                    <h1>Đăng ký với</h1>
+                </div>
+                <div class="create_gg_zl">
+                    <a href=""><div class="create_gg">
+                        <img src="Images/icongg.webp"  alt="">
+                        <p>Google</p>
+                    </div></a>
+                    <a href=""><div class="create_zl">
+                        <img src="Images/zaloicon.png"  alt="">
+                        <p>Zalo</p>
+                    </div></a>
+                </div>
+                <div class="create_or">
+                    <hr>
+                    <h3>hoặc</h3>
+                    <hr>
+                </div>
+
+                <div class="form_name_user">
+                  <input id="inputname" type="text" placeholder="Nhập họ và tên" size="40"> 
+                </div>
+                <div class="error_mes" id="errorinputname"></div>
+
+                <div class="form_phone_user">
+                    <input id="inputphone" type="text" placeholder="Nhập số điện thoại" size="40" maxlength="10">  
+                </div>
+                <div class="error_mes" id="errorinputphone"></div>
+
+                <div class="form_email_user">
+                  <input id="inputemail" type="text" placeholder="Nhập email" size="40">  
+                </div>
+                <div class="error_mes" id="errorinputemail"></div>
+
+                <div class="form_pass_user">
+                  <input id="inputpassword" type="password" placeholder="Nhập mật khẩu" size="40">  
+                </div>
+                <div class="error_mes" id="errorinputpassword"></div>
+
+                <div class="form_repass_user">
+                  <input id="inputrepassword" type="password" placeholder="Nhập lại mật khẩu" size="40">  
+                </div>
+                <div class="error_mes" id="errorinputrepassword"></div>
+
+                <div class="div_btn_create">
+                <a class="btn_create" href="#" onclick="validateFormCreate()">Đăng ký</a>
+                </div>
+                <div class="text_login"><span>Bạn đã có tài khoản?</span> <a href="login.html">Đăng nhập</a></div>
+                <div class="create_bottom"></div>
+                
+            </div>
+        </div>
+      </div>
+      <footer id="footer">
+        <div class="wrapper_footer">
+          <div class="footer_container">
+            <div class="footer_info">
+              <h3 class="footer_heading">GIỚI THIỆU</h3>
+              <div class="footer_desc">
+                <div class="footer_desc-info">
+                  <ul>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Tuyển dụng</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer_help">
+              <h3 class="footer_heading">HỖ TRỢ KHÁCH HÀNG</h3>
+              <div class="footer_desc">
+                <div class="footer_desc-help">
+                  <ul>
+                    <li>
+                      Liên hệ:
+                      <a href="" style="font-size: 16px; font-weight: 600"
+                        >0981-191-651</a
+                      >
+                    </li>
+                    <li>
+                      Bảo hành:
+                      <a href="" style="font-size: 16px; font-weight: 600"
+                        >0994-323-859</a
+                      >
+                    </li>
+                    <li>
+                      Gmail:
+                      <a
+                        href=""
+                        style="text-decoration: underline; font-size: 16px"
+                        >PMTsmartphone@gmail.com</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer_contact">
+              <h3 class="footer_heading">LIÊN HỆ CHÚNG TÔI</h3>
+              <div class="footer_desc">
+                <div class="contact">
+                  <img src="Images/fbicon.webp" alt="" />
+                  <img src="Images/insicon.webp" alt="" />
+                  <img src="Images/tiktokicon.png" alt="" />
+                  <img src="Images/zaloicon.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="footer_payment_ship">
+              <h3 class="footer_heading">Phương thức thanh toán</h3>
+              <div class="footer_desc">
+                <div class="payment">
+                  <img src="Images/pay_4.jpg" alt="" />
+                  <img src="Images/pay_7.jpg" alt="" />
+                  <img src="Images/pay_8.jpg" alt="" />
+                  <img src="Images/pay_1.jpg" alt="" />
+                  <img src="Images/pay_2.jpg" alt="" />
+                  <img src="Images/pay_3.jpg" alt="" />
+                  <img src="Images/pay_5.jpg" alt="" />
+                  <img src="Images/pay_6.jpg" alt="" />
+                </div>
+              </div>
+              <h3 class="footer_heading">ĐƠN VỊ VẬN CHUYỂN</h3>
+              <div class="footer_desc">
+                <div class="ship">
+                  <img src="Images/vanchuyen1.jpg" alt="" />
+                  <img src="Images/vanchuyen2.jpg" alt="" />
+                  <img src="Images/vanchuyen3.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_copyright">
+          <div class="copyright">
+            &copy; 2024 PMTuan - Developed by Pham Manh Tuan
+          </div>
+          <div class="info">Student ID: DH52100999 - Class: D21_TH03</div>
+        </div>
+      </footer>
+    </div>
+    
+    
+    <script src="Scripts/validateFormCreate.js"></script>
+    <script src="Scripts/fromuser.js"></script>
+    <script src="Scripts/showmenu.js"></script>
+
+  </body>
+</html>

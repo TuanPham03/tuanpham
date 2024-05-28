@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Styles/style.css" />
+    <title>PMT smart phone</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="wrapper_header">
+        <div class="container_header">
+          <div class="logo_main">
+            <a href="index.html" class="logo_main-header">
+              <img src="Images/logo1.png" alt="" />
+            </a>
+          </div>
+          <div class="search">
+            <form action="" class="form_search">
+              <input type="text" name="search" placeholder="Search..." />
+              <i class="bx bx-search-alt-2 iconSearch"></i>
+            </form>
+          </div>
+          <div>
+            <div class="form_user" id="form_user" onclick="ToggleMenu()">
+              <img class="img_login" src="Images/user.png" alt="" />
+              <i class='bx bx-menu img_login1'></i>
+              <div class="supmenu_user" id="supmenu-user">
+                <div class="arrow_user_top" id="supmenu-user1">
+                  <i class="bx bxs-up-arrow"></i>
+                </div>
+
+                <div class="sup_user">
+                  <div class="user_info">
+                    <h1>Thông tin người dùng</h1>
+                  </div>
+                  <hr />
+                  <a href="" class="link-sup-menu-user">
+                    <p>Giỏ hàng</p>
+                    <span>0</span>
+                  </a>
+                  <a href="" class="link-sup-menu-user">
+                    <p>Trợ giúp</p>
+                  </a>
+                  <a href="login.html" class="link-sup-menu-user">
+                    <p>Đăng nhập</p>
+                  </a>
+                  <a href="signup.html" class="link-sup-menu-user">
+                    <p>Đăng ký</p>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="menu_phone" id="menu_phone">
+            <ul class="menu_phone_list">
+              <li class="menu_items">
+                <a href=""
+                  ><div><i class="bx bx-home"></i><span>Trang chủ</span></div></a
+                >
+              </li>
+              <li class="menu_items" id="menuitems"  >
+                <a href="#"
+                  ><div><i class="bx bx-mobile-alt"></i><span>Điện thoại</span><i class="bx bxs-down-arrow icarrow ic"></i></div>
+                  </a>
+                <ul class="sub-menu-phone" id="sub-menu-phone">
+                  <li>
+                    <a href=""><div>Iphone</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>SamSung</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>Oppo</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>ViVo</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>Xiaomi</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>Nokia</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>Asus</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>Realme</div></a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu_items">
+                <a href=""
+                  ><div><i class="bx bx-usb"></i><span>Phụ kiện</span></div></a
+                >
+              </li>
+              <li class="menu_items" id="menuitems1" >
+                <a href="#"
+                  ><div><i class="bx bx-mobile-vibration"></i><span>Hàng cũ</span><i class="bx bxs-down-arrow icarrow1"></i></div>
+                  </a>
+                <ul class="sub-menu-phone" id="sub-menu-phone">
+                  <li>
+                    <a href=""><div>Iphone cũ</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>SamSung cũ</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>Oppo cũ</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>ViVo cũ</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>Xiaomi cũ</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>Nokia cũ</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>Asus cũ</div></a>
+                  </li>
+                  <li>
+                    <a href=""><div>Realme cũ</div></a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu_items">
+                <a href=""
+                  ><div><i class="bx bx-headphone"></i><span>Âm thanh</span></div></a
+                >
+              </li>
+              <li class="menu_items">
+                <a href="contact.html"
+                  ><div><i class="bx bxs-contact"></i><span>Liên hệ</span></div></a>
+              </li>
+
+              <li class="menu_items">
+                <a href=""
+                  ><div><i class="bx bx-volume-full"></i><span>Khuyến mãi</span></div></a
+                >
+              </li>
+              <li class="menu_items">
+                <a href=""
+                  ><div><i class="bx bx-news"></i><span>Tin tức</span></div></a
+                >
+              </li>
+              <li class="menu_items">
+                <a href="login.html"
+                  ><div><i class="bx bx-user"></i><span>Tài khoản</span></div></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="wrapper_body">
+        <div class="wrapper_container">
+          <div class="content">
+            <div class="container_left">
+              <div class="sidebar">
+                <ul class="sidebar_list">
+                  <li class="sidebar_items">
+                    <a href=""
+                      ><div><i class="bx bx-home"></i>Trang chủ</div></a
+                    >
+                  </li>
+                  <li class="sidebar_items">
+                    <a href=""
+                      ><div><i class="bx bx-mobile-alt"></i>Điện thoại</div>
+                      <i class="bx bxs-right-arrow icarrow"></i
+                    ></a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href=""><div>Iphone</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>SamSung</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>Oppo</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>ViVo</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>Xiaomi</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>Nokia</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>Asus</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>Realme</div></a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar_items">
+                    <a href=""
+                      ><div><i class="bx bx-usb"></i>Phụ kiện</div></a
+                    >
+                  </li>
+                  <li class="sidebar_items">
+                    <a href=""
+                      ><div><i class="bx bx-mobile-vibration"></i>Hàng cũ</div>
+                      <i class="bx bxs-right-arrow icarrow1"></i
+                    ></a>
+                    <ul class="sub-menu1">
+                      <li>
+                        <a href=""><div>Iphone cũ</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>SamSung cũ</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>Oppo cũ</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>ViVo cũ</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>Xiaomi cũ</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>Nokia cũ</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>Asus cũ</div></a>
+                      </li>
+                      <li>
+                        <a href=""><div>Realme cũ</div></a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sidebar_items">
+                    <a href=""
+                      ><div><i class="bx bx-headphone"></i>Âm thanh</div></a
+                    >
+                  </li>
+                  <li class="sidebar_items">
+                    <a href="contact.html"
+                      ><div><i class="bx bxs-contact"></i>Liên hệ</div></a
+                    >
+                  </li>
+
+                  <li class="sidebar_items">
+                    <a href=""
+                      ><div><i class="bx bx-volume-full"></i>Khuyến mãi</div></a
+                    >
+                  </li>
+                  <li class="sidebar_items">
+                    <a href=""
+                      ><div><i class="bx bx-news"></i>Tin tức</div></a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="container_right">
+              <div class="content_right">
+                <div class="right_slideshow">
+                  <div class="slideshow">
+                    <div class="list_images">
+                      <img
+                        class="slideshow_img"
+                        src="Images/slide1.jpg"
+                        alt=""
+                      />
+                      <img
+                        class="slideshow_img"
+                        src="Images/slide2.jpg"
+                        width="100%"
+                        alt=""
+                      />
+                      <img
+                        class="slideshow_img"
+                        src="Images/slide3.jpg"
+                        alt=""
+                      />
+                      <img
+                        class="slideshow_img"
+                        src="Images/slide4.jpg"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="btns">
+                    <div class="btn_left btn">
+                      <i class="bx bx-chevron-left" style="font-size: 30px"></i>
+                    </div>
+                    <div class="btn_right btn">
+                      <i
+                        class="bx bx-chevron-right"
+                        style="font-size: 30px"
+                      ></i>
+                    </div>
+                  </div>
+                  <div class="index_images">
+                    <div class="index_items index_items-0 active"></div>
+                    <div class="index_items index_items-1"></div>
+                    <div class="index_items index_items-2"></div>
+                    <div class="index_items index_items-3"></div>
+                  </div>
+                </div>
+                <div class="container_content">
+                  <div class="container_product">
+                    <div class="product">
+                      <a href="detail.html">
+                        <div class="product_item">
+                          <img
+                            src="Images/iphone_13-a.jpg"
+                            width="100%"
+                            alt=""
+                          />
+                        </div>
+                        <div class="product_content">
+                          <div class="product_text">
+                            iPhone 13 128GB | Chính hãng VN/A
+                          </div>
+                          <div class="box_price">
+                            <p class="product_price">13.590.000₫</p>
+                            <p class="product_price-through">18.990.000₫</p>
+                          </div>
+                          <div class="percent_product">
+                            <p class="detail_product">Giảm&nbsp;28%</p>
+                          </div>
+                          <div class="description_product">
+                            <p>Máy mới 100% , chính hãng Apple Việt Nam...</p>
+                          </div>
+                        </div>
+                      </a>
+                      <div class="rating_product">
+                        <div class="rating_left">
+                          <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i>
+                        </div>
+                        <div class="rating_right">
+                          <span>yêu thích&nbsp;</span>
+                          <div class="icon_heart">
+                            <i class="bx bx-heart heart"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="product">
+                      <a href="">
+                        <div class="product_item">
+                          <img
+                            src="Images/iphone_13-a.jpg"
+                            width="100%"
+                            alt=""
+                          />
+                        </div>
+                        <div class="product_content">
+                          <div class="product_text">
+                            iPhone 13 128GB | Chính hãng VN/A
+                          </div>
+                          <div class="box_price">
+                            <p class="product_price">13.590.000₫</p>
+                            <p class="product_price-through">18.990.000₫</p>
+                          </div>
+                          <div class="percent_product">
+                            <p class="detail_product">Giảm&nbsp;28%</p>
+                          </div>
+                          <div class="description_product">
+                            <p>Máy mới 100% , chính hãng Apple Việt Nam...</p>
+                          </div>
+                        </div>
+                      </a>
+                      <div class="rating_product">
+                        <div class="rating_left">
+                          <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i>
+                        </div>
+                        <div class="rating_right">
+                          <span>yêu thích&nbsp;</span>
+                          <div class="icon_heart">
+                            <i class="bx bx-heart heart"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <a href="">
+                        <div class="product_item">
+                          <img
+                            src="Images/iphone_13-a.jpg"
+                            width="100%"
+                            alt=""
+                          />
+                        </div>
+                        <div class="product_content">
+                          <div class="product_text">
+                            iPhone 13 128GB | Chính hãng VN/A
+                          </div>
+                          <div class="box_price">
+                            <p class="product_price">13.590.000₫</p>
+                            <p class="product_price-through">18.990.000₫</p>
+                          </div>
+                          <div class="percent_product">
+                            <p class="detail_product">Giảm&nbsp;28%</p>
+                          </div>
+                          <div class="description_product">
+                            <p>Máy mới 100% , chính hãng Apple Việt Nam...</p>
+                          </div>
+                        </div>
+                      </a>
+                      <div class="rating_product">
+                        <div class="rating_left">
+                          <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i>
+                        </div>
+                        <div class="rating_right">
+                          <span>yêu thích&nbsp;</span>
+                          <div class="icon_heart">
+                            <i class="bx bx-heart heart"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <a href="">
+                        <div class="product_item">
+                          <img
+                            src="Images/iphone_13-a.jpg"
+                            width="100%"
+                            alt=""
+                          />
+                        </div>
+                        <div class="product_content">
+                          <div class="product_text">
+                            iPhone 13 128GB | Chính hãng VN/A
+                          </div>
+                          <div class="box_price">
+                            <p class="product_price">13.590.000₫</p>
+                            <p class="product_price-through">18.990.000₫</p>
+                          </div>
+                          <div class="percent_product">
+                            <p class="detail_product">Giảm&nbsp;28%</p>
+                          </div>
+                          <div class="description_product">
+                            <p>Máy mới 100% , chính hãng Apple Việt Nam...</p>
+                          </div>
+                        </div>
+                      </a>
+                      <div class="rating_product">
+                        <div class="rating_left">
+                          <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i>
+                        </div>
+                        <div class="rating_right">
+                          <span>yêu thích&nbsp;</span>
+                          <div class="icon_heart">
+                            <i class="bx bx-heart heart"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <a href="">
+                        <div class="product_item">
+                          <img
+                            src="Images/iphone_13-a.jpg"
+                            width="100%"
+                            alt=""
+                          />
+                        </div>
+                        <div class="product_content">
+                          <div class="product_text">
+                            iPhone 13 128GB | Chính hãng VN/A
+                          </div>
+                          <div class="box_price">
+                            <p class="product_price">13.590.000₫</p>
+                            <p class="product_price-through">18.990.000₫</p>
+                          </div>
+                          <div class="percent_product">
+                            <p class="detail_product">Giảm&nbsp;28%</p>
+                          </div>
+                          <div class="description_product">
+                            <p>Máy mới 100% , chính hãng Apple Việt Nam...</p>
+                          </div>
+                        </div>
+                      </a>
+                      <div class="rating_product">
+                        <div class="rating_left">
+                          <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i>
+                        </div>
+                        <div class="rating_right">
+                          <span>yêu thích&nbsp;</span>
+                          <div class="icon_heart like" style="display: block">
+                            <i class="bx bx-heart heart"></i>
+                          </div>
+                          <div
+                            class="icon_fullheart like1"
+                            style="display: none"
+                          >
+                            <i class="bx bxs-heart fullheart"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <a href="">
+                        <div class="product_item">
+                          <img
+                            src="Images/iphone_13-a.jpg"
+                            width="100%"
+                            alt=""
+                          />
+                        </div>
+                        <div class="product_content">
+                          <div class="product_text">
+                            iPhone 13 128GB | Chính hãng VN/A
+                          </div>
+                          <div class="box_price">
+                            <p class="product_price">13.590.000₫</p>
+                            <p class="product_price-through">18.990.000₫</p>
+                          </div>
+                          <div class="percent_product">
+                            <p class="detail_product">Giảm&nbsp;28%</p>
+                          </div>
+                          <div class="description_product">
+                            <p>Máy mới 100% , chính hãng Apple Việt Nam...</p>
+                          </div>
+                        </div>
+                      </a>
+                      <div class="rating_product">
+                        <div class="rating_left">
+                          <i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i><i class="bx bxs-star"></i
+                          ><i class="bx bxs-star"></i>
+                        </div>
+                        <div class="rating_right">
+                          <span>yêu thích&nbsp;</span>
+                          <div class="icon_heart like" style="display: block">
+                            <i class="bx bx-heart heart"></i>
+                          </div>
+                          <div
+                            class="icon_fullheart like1"
+                            style="display: none"
+                          >
+                            <i class="bx bxs-heart fullheart"></i>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer id="footer">
+        <div class="wrapper_footer">
+          <div class="footer_container">
+            <div class="footer_info">
+              <h3 class="footer_heading">GIỚI THIỆU</h3>
+              <div class="footer_desc">
+                <div class="footer_desc-info">
+                  <ul>
+                    <li><a href="">Giới thiệu</a></li>
+                    <li><a href="">Tuyển dụng</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="footer_help">
+              <h3 class="footer_heading">HỖ TRỢ KHÁCH HÀNG</h3>
+              <div class="footer_desc">
+                <div class="footer_desc-help">
+                  <ul>
+                    <li>
+                      Liên hệ:
+                      <a href="" style="font-size: 16px; font-weight: 600"
+                        >0981-191-651</a
+                      >
+                    </li>
+                    <li>
+                      Bảo hành:
+                      <a href="" style="font-size: 16px; font-weight: 600"
+                        >0994-323-859</a
+                      >
+                    </li>
+                    <li>
+                      Gmail:
+                      <a
+                        href=""
+                        style="text-decoration: underline; font-size: 16px"
+                        >PMTsmartphone@gmail.com</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="footer_contact">
+              <h3 class="footer_heading">LIÊN HỆ CHÚNG TÔI</h3>
+              <div class="footer_desc">
+                <div class="contact">
+                  <img src="Images/fbicon.webp" alt="" />
+                  <img src="Images/insicon.webp" alt="" />
+                  <img src="Images/tiktokicon.png" alt="" />
+                  <img src="Images/zaloicon.png" alt="" />
+                </div>
+              </div>
+            </div>
+
+            <div class="footer_payment_ship">
+              <h3 class="footer_heading">Phương thức thanh toán</h3>
+              <div class="footer_desc">
+                <div class="payment">
+                  <img src="Images/pay_4.jpg" alt="" />
+                  <img src="Images/pay_7.jpg" alt="" />
+                  <img src="Images/pay_8.jpg" alt="" />
+                  <img src="Images/pay_1.jpg" alt="" />
+                  <img src="Images/pay_2.jpg" alt="" />
+                  <img src="Images/pay_3.jpg" alt="" />
+                  <img src="Images/pay_5.jpg" alt="" />
+                  <img src="Images/pay_6.jpg" alt="" />
+                </div>
+              </div>
+              <h3 class="footer_heading">ĐƠN VỊ VẬN CHUYỂN</h3>
+              <div class="footer_desc">
+                <div class="ship">
+                  <img src="Images/vanchuyen1.jpg" alt="" />
+                  <img src="Images/vanchuyen2.jpg" alt="" />
+                  <img src="Images/vanchuyen3.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer_copyright">
+          <div class="copyright">
+            &copy; 2024 PMTuan - Developed by Pham Manh Tuan
+          </div>
+          <div class="info">Student ID: DH52100999 - Class: D21_TH03</div>
+        </div>
+      </footer>
+    </div>
+    <div class="social">
+      <div class="icon">
+        <a target="_blank" href=""><img src="Images/zaloicon.png" alt="" /></a>
+      </div>
+    </div>
+    <script src="Scripts/scripts.js"></script>
+    <script src="Scripts/fromuser.js"></script>
+    <script src="Scripts/showmenu.js"></script>
+  </body>
+</html>
