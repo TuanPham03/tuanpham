@@ -665,17 +665,17 @@ a{
           margin-left: 40px;
         }
         .container_header .icarrow {
-      
-          top: 65px;
-          right: 20px;
-          font-size: 20px;
-        }
-        .container_header .icarrow1 {
-      
-          top: 165px;
-          right: 20px;
-          font-size: 20px;
-        }
+            position: relative;
+            top: 2px;
+            right: -240px;
+            font-size: 20px;
+          }
+          .container_header .icarrow1 {
+            position: relative;
+            top: 2px;
+            right: -253px;
+            font-size: 20px;
+          }
         .menu_phone_list li a {
           color: white;
         }
