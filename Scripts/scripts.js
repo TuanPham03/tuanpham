@@ -1,3 +1,4 @@
+
 // slide show
 
 //lấy phần tử DOM
